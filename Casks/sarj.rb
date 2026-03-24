@@ -14,22 +14,22 @@ cask "sarj" do
   on_macos do
     on_intel do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_darwin_amd64.tar.gz"
-      sha256 "d21fbf8b20141321272c9e4e6df43e1949251335e33fedc2d03d93d05c167cbd"
+      sha256 "49ef36d7bbb060450154d168e2afb7ae927360d7d99c50ba7d4c2079db092b23"
     end
     on_arm do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_darwin_arm64.tar.gz"
-      sha256 "49cfc3f445881d1e1846c086cb1498a6c7aae79312048c164ac314e64a35a944"
+      sha256 "0257508ce90bae043ca79f947cd7d833906c7812c46f3919c6c6bc7aa90bbcc6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_linux_amd64.tar.gz"
-      sha256 "6948f51c1e8e4731396fe65674d928a84e9c0da5652b6d9a7bbc18b6da4af555"
+      sha256 "783db3464218b8fc5e58b90b0cf0fe335fd014f58f2f57a178147366f963b8ee"
     end
     on_arm do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_linux_arm64.tar.gz"
-      sha256 "e30cfe583742c0d009ebe93c9acc1a36768516051045b26cf9d1b8199c959183"
+      sha256 "73cc04558c5c514fc90990ab4d1c02b1448c082f32293066c1f01d0b39797627"
     end
   end
 

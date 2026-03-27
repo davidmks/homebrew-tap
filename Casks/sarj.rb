@@ -3,7 +3,7 @@ cask "sarj" do
   name "sarj"
   desc "Git worktree + tmux session manager"
   homepage "https://github.com/davidmks/sarj"
-  version "1.0.6"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "sarj" do
   on_macos do
     on_intel do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_darwin_amd64.tar.gz"
-      sha256 "8ec320a054721103222e6ebcd4ece2c82943405c0a53b8ef38a6c1ea53388644"
+      sha256 "759f4025f04f8a079f9e57ac179f4a583a7bb27e13ab991e1c234f1cd543c0da"
     end
     on_arm do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_darwin_arm64.tar.gz"
-      sha256 "ac357e7ca9b1c3a8e2cf255c99de95929da711511520a13d17b7a5c645282fec"
+      sha256 "f434abaf90fa5cb5d090de9b52a043aad63ab96271510dbb08ec4d10d9efc4c6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_linux_amd64.tar.gz"
-      sha256 "60c0abc95f203ce0c31ee9ae42930eefd10cad18e43ccfd8194e9955be6fa7d5"
+      sha256 "fdcd52561b01a7bdc0280b77ecf291ff0b8a5742cd4e0b747da2fc46699b444c"
     end
     on_arm do
       url "https://github.com/davidmks/sarj/releases/download/v#{version}/sarj_#{version}_linux_arm64.tar.gz"
-      sha256 "5e5000463e2429baf5b6644841d4fe7fb332aaa29d47dbef86eaee57e71ff252"
+      sha256 "72fabd0671763035bef69b7658f113e26d711143377ef2b84f50ae8e6908d62b"
     end
   end
 
